@@ -1,22 +1,22 @@
 import React from 'react';
 import { Card, Button, CardTitle, CardText, Col } from 'reactstrap';
 
-const LoginOneThird = (props) => {
+const RegisterOneThird = (props) => {
   return (
-    <div style={thirdsLogin}>
-      <p>Login</p>
+    <div style={thirdRegister}>
+      <p>Register</p>
     </div>
   );
 };
 
-export default LoginOneThird;
+export default RegisterOneThird;
 
-var thirdsLogin = {
+var thirdRegister = {
   width: 'calc(100vw / 3)',
-  background : 'blue',
+  background : 'red',
   margin : '0',
   padding : '0',
   height : '100vh',
-  border : '5px dotted black',
+  border : '5px dotted yellow',
   color : 'white'
 }
