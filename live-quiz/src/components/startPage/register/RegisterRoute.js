@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Switch, Route, Link } from 'react-router-dom'
 import { Card, Button, CardTitle, CardText, Col } from 'reactstrap';
 
-const RegisterOneThird = (props) => {
+const RegisterPage = (props) => {
   return (
-    <div style={thirdRegister}>
+    <div style={registerMain}>
       <p>Register</p>
 
       <header>
         <nav>
           <ul>
-            <li><Link to='/register'>Register</Link></li>
+            <li><Link to='/'>Home</Link></li>
           </ul>
          </nav>
       </header>
@@ -18,14 +18,14 @@ const RegisterOneThird = (props) => {
   );
 };
 
-export default RegisterOneThird;
+export default RegisterPage;
 
-var thirdRegister = {
-  width: 'calc(100vw / 3)',
-  background : 'red',
+var registerMain = {
+  width: '100vw',
+  background : 'green',
   margin : '0',
   padding : '0',
   height : '100vh',
-  border : '5px dotted yellow',
+  border : '5px dotted white',
   color : 'white'
 }
