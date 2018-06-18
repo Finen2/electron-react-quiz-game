@@ -9,9 +9,8 @@ const LoginPage = (props) => {
 
       <header>
         <nav>
-          <ul>
-            <li><Link to='/'>Home</Link></li>
-          </ul>
+            <Link to='/'><Button color="danger">Back</Button></Link>
+            <Link to='/logedIn'><Button color="warning">Login</Button></Link>
          </nav>
       </header>
     </div>

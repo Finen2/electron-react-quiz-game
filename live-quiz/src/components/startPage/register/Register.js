@@ -9,9 +9,7 @@ const RegisterOneThird = (props) => {
 
       <header>
         <nav>
-          <ul>
-            <li><Link to='/register'>Register</Link></li>
-          </ul>
+            <Link to='/register'><Button color="danger">Register</Button></Link>
          </nav>
       </header>
     </div>

@@ -9,9 +9,7 @@ const SchoolPage = (props) => {
 
       <header>
         <nav>
-          <ul>
-            <li><Link to='/'>Home</Link></li>
-          </ul>
+          <Link to='/'><Button color="danger">Home</Button></Link>
          </nav>
       </header>
     </div>
