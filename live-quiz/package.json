@@ -49,10 +49,12 @@
     "webpack-manifest-plugin": "1.3.2",
     "whatwg-fetch": "2.0.3"
   },
+  "main": "public/main.js",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "electron": "electron ."
   },
   "jest": {
     "collectCoverageFrom": [
@@ -97,6 +99,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "electron": "^2.0.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1"
   }
