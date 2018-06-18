@@ -5,7 +5,7 @@ import { Card, Button, CardTitle, CardText, Col } from 'reactstrap';
 const LogedIn = (props) => {
   return (
     <div style={schoolThid}>
-      <p>School</p>
+      <p>Loged in</p>
 
     <header>
       <nav>
