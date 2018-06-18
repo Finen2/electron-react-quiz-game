@@ -27,6 +27,5 @@ var schoolThid = {
   margin : '0',
   padding : '0',
   height : '100vh',
-  border : '5px dotted green',
   color : 'white'
 }

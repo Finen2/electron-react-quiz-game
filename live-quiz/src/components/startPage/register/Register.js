@@ -26,6 +26,5 @@ var thirdRegister = {
   margin : '0',
   padding : '0',
   height : '100vh',
-  border : '5px dotted yellow',
   color : 'white'
 }

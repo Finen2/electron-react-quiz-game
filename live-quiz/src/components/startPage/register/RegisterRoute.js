@@ -26,6 +26,5 @@ var registerMain = {
   margin : '0',
   padding : '0',
   height : '100vh',
-  border : '5px dotted white',
   color : 'white'
 }
